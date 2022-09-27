@@ -1,6 +1,5 @@
 {{ if or (and .Site.Params.enableComments (ne .Params.enableComments false)) (eq .Params.enableComments true) }}
-  <div id="comment">
-    <!-- https://gohugo.io/templates/internal/#use-the-disqus-template -->
-    {{ template "_internal/disqus.html" . }}
-  </div>
+<div class="commentbox"></div>
+<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+<script>commentBox('5636838366642176-proj')</script>
 {{ end }}
