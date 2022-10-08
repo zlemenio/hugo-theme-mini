@@ -92,6 +92,7 @@ pre {
 }
 .markdown-image img {
   max-width: 100%;
+  border-radius: 10px;
 }
 .anchor { 
   font-size: 100%; 
